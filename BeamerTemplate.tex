@@ -1,0 +1,58 @@
+% xelatex 
+\documentclass[11pt]{beamer}
+\usepackage[scheme=plain]{ctex}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ulem}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{enumerate}
+%\usepackage{enumitem}
+\usetheme{CambridgeUS}
+
+ 
+% contents 
+\AtBeginSection[]{ 
+    \begin{frame}[plain]{目录} 
+    \transfade 
+    \tableofcontents[sectionstyle=show/shaded, subsectionstyle=show/shaded/hide] 
+    \end{frame} 
+} 
+
+\AtBeginSubsection[]{ 
+%     \begin{frame}[plain]{目录} 
+%     \transfade 
+%     \tableofcontents[sectionstyle=show/shaded, subsectionstyle=show/shaded/hide] 
+%     \end{frame} 
+% } 
+
+% set image path 
+\graphicspath{{images/}} 
+\DeclareGraphicsExtensions{.pdf, .png} 
+
+
+\title{Research Report}
+\subtitle{xxx} 
+\institute{Hunan university} 
+\author{Tian Lv} 
+\date{xxx x, 2023} 
+
+
+\begin{document} 
+\begin{frame}[plain] 
+	\maketitle 
+\end{frame} 
+
+
+%\part{} 
+%\section{} 
+%\begin{frame}[plain]{}{} 
+%\begin{frame}[fragile]{}{} 
+%\begin{lstlisting} 
+%\end{lstlisting} 
+%\end{frame} 
+\end{document} 
